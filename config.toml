@@ -1,0 +1,45 @@
+baseURL = 'https://blog.yuka.today/'
+languageCode = 'zh-cn'
+title = 'Yuka漫游记'
+theme = "anatole"
+
+[menu]
+[[menu.main]]
+name = "Home"
+identifier = "home"
+weight = 100
+url = "/"
+
+[[menu.main]]
+name = "Posts"
+weight = 200
+identifier = "posts"
+url = "/post/"
+
+[[menu.main]]
+name = "About"
+weight = 300
+identifier = "about"
+url = "/about/"
+
+
+[params]
+title = "Yuka漫游记"
+author = "Yuka"
+description = "Call me Yuka"
+profilePicture = "images/profile.jpg"
+
+[[params.socialIcons]]
+icon = "fab fa-bilibili"
+title = "Bilibili"
+url = "https://space.bilibili.com/1883621163/"
+
+[[params.socialIcons]]
+icon = "fab fa-weibo"
+title = "Douban"
+url = "https://www.douban.com/people/160499362"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:997451724@qq.com"
